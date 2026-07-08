@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="./output.css" rel="stylesheet">
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Geist+Pixel&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Patrick+Hand&family=Playpen+Sans:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Geist+Pixel&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Patrick+Hand&family=Playpen+Sans:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+  .right img {
+    object-fit: inherit;
+  }
+
+  .flates * {
+    color: black;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+
+  li {
+    list-style-type: none;
+    margin-right: 5px;
+  }
+  .faq li, .faq li{
+    font-family: poppins;
+  }
+  .f-1 input{
+    background-color: white;
+    color: black;
+    font-family: "Inter", sans-serif;
+    text-transform: capitalize;
+    border-color: black;
+    padding-left: 3px;
+  }
+  .f-1 p{
+    font-weight: 600;
+  }
+  html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+  html{
+    scroll-behavior: smooth;
+  }
+</style>
+
+<body>
+  <!-- <nav>
+  <ul class="fixed top-0  z-10 h-12 w-full  text-[32px] font-poppins bg-gray-200 flates flex justify-evenly">
+
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#developer">Developer</a></li>
+    <li><a href="#Residences">Residences</a></li>
+    <li><a href="#location">Location</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ul>
+  </nav>  -->
+  <!-- <hr class="border-2">
+
+   main website start from here -->
+
+  <div id="home" class="first  w-full flex sm:h-130 sm:w-full lg:flex lg:flex-col">
+    <div class="box left pl-4 w-full  bg-gray-200 flex flex-col justify-between sm:h-full md:w-120 ">
+      <div class="top-h sm:w-full sm:flex sm:flex-col ">
+        <div class="top-1 ml-5 text-4xl  sm:grow-5 "><span class="font-bold">aria</span>haus</div>
+        <div class="top-2 mt-6 h-30 w-120   border-black">
+          <h1 class="font-bold text-6xl flex md:text-[48px]">A Symphony of Urban Living</h1>
+        </div>
+        <div class="top-3 mt-4 text-[24px] grow-3">Where contemporay design meets timeless elegance</div>
+      </div>
+      <div class="top-b h-50 w-60 sm:flex">
+        <p class="capitalize h-30 w-30 font-poppins font-[15px]  sm:grow-15 sm:text-[20px] md:text-[15px] ">
+          discover an exclusive collection of residences crafted for the modern connoisseur ,nestled in the heart of san
+          Francisco
+        </p>
+      </div>
+    </div>
+    <div class=" relative box right w-full md:h-130 md:w-120  ">
+
+      <img src="hote-front.jpg" class="w-full h-180 md:h-130 md:w-120 md:object-cover" alt="">
+
+    </div>
+  </div>
+  <hr class="border-2">
+  <div id="about" class="second h-210 w-full flex justify-between items-center sm:flex sm:flex-col md:flex">
+    <div class="flex flex-col justify-between pl-5 part part-1 h-182 w-full bg-[#a57634]">
+      <div class="heading w-110 h-70 mt-4  gap-y-5 flex justify-evenly flex-col ">
+        <h1 class="text-5xl text-white font-bold font-poppins capitalize sm:grow-4  sm:text-[54px] ">crafted for the connoisseur</h1>
+        <p class=" mt-4 capitalize font-bold text-xs h-90 w-90 text-white sm:leading-5 sm:pb-4 sm:text-[16px]">Aria Haus is morethan a residence; it's a
+          statement.Concevied by leading architects,every detail is meticulously curated to foster a lifestyle of
+          comfort,beauty, and seamless connection to the urban lanscape</p>
+      </div>
+      <div class="back-image mb-12 w-full md:pb-4">
+        <img src="hotel-back.jpg"  class="  sm:rounded md:w-180 md:pb-4" alt="">
+      </div>
+    </div>
+    <div class=" part part-2 h-182 w-full  bg-[#a57634]">
+      <img src="sofa.webp" class="img2  sm:h-full " alt="" >
+    </div>
+  </div>
+  <hr class="border-2">
+  <div id="developer" class="third  h-195 w-full bg-sky-400 flex flex-col  sm:h-255 sm:py-110 md:mt-4 ">
+    <div class="text text-1 h-180 w-full flex flex-col justify-evenly  sm:flex sm:flex-col  ">
+      <div class="sub-text-1 h-40 w-full  flex flex-col justify-evenly px-5">
+        <h1 class="capitalize font-bold font-poppins text-4xl md:text-5xl md:-mt-2 md:-pt-8">Visionaries in urban development </h1>
+        <p class="capitalize h-40 pt-3 w-150 border-black font-poppins sm:text-[14px] md:pt-5 md:text-[15px] ">With a portfolio celebrated for architectural integrity and
+          superior quality, the Solari Group is dedicated to creating iconic properties that stand the test of time and
+          enhance the communities they serve.</p>
+      </div>
+      <div class="img3  h-125 w-full md:w-full md:mt-5">
+ 
+        <img src="seating.webp" alt="Banner" class="h-135 rounded-[5px]  px-5 w-full sm:h-100  md:w-full md:object-cover">
+
+      </div>
+    </div>
+  </div>
+  <hr class="border-2">
+  <div id="Residences" class="fourth h-350   bg-gray-200">
+    <div class="four-1 flex justify-evenly my-5 sm:flex sm:flex-col  sm:h-50 md:h ">
+      <h1 class="capitalize text-5xl font-bold h-40 w-full font-poppins sm:text-center sm:pl-14 sm:leading-16 md:text-5xl"> Your Personal Sanctuary awaits</h1>
+
+      <div class="mini h-45 w-full  flex justify-start items-end md:text-4xl">
+
+        <p class=" capitalize h-25   pt-5 font-poppins sm:text-center sm:pl-4 sm:text-[21px] md:text-2xl ">Find the space that perfectly defines you through our
+          curated selection of Architecture residences</p>
+      </div>
+
+    </div>
+    <div class="four-2 g-box grid grid-cols-2 gap-10 pt-3 bg-gray-200 h-300 sm:h-300 sm:grow-4   sm:flex sm:flex-col sm:justify-center sm:items-center md:grid md:grid-cols-2 md:gap-12 md:py-4 md:self-center">
+      <!-- //first -->
+
+      <div class="box box-1 h-120 w-100   flex flex-col gap-y-3  ">
+        <div class="g-img-1  ">
+
+          <img src="/images/images.jpg" alt="" class="g-img-sub-1 h-85 w-auto rounded-[5px] border-2 md:h-70 md:w-85"
+            style="filter:saturate(4);">
+        </div>
+        <h1 class="capitalize px-2 font-poppins font-semibold"> the garden suite</h1>
+        <p class="capitalize px-2 font-poppins md:w-80"> how masterclass in efficiency and style featuring expensive
+          architectural windows and a green tropical private garden</p>
+        
+      </div>
+
+      <!-- second -->
+      <div class="box box-2 h-120 w-100  flex flex-col gap-y-3 ">
+        <div class="g-img-2">
+
+          <img src="/images/sofaaa.jpg" alt="" class="g-img-sub-1 h-85 w-full rounded-[5px] border-2 md:aspect-[3/2] md:h-70 md:w-85"
+            style="filter: saturate(2) ">
+        </div>
+        <h1 class="capitalize px-2 font-poppins font-semibold"> One-Bedroom Panorama</h1>
+        <p class="capitalize px-2 h-30 w-full  font-poppins md:flex-wrap md:w-80"> Generous open-plan living spaces and private balconies offering
+          breathtaking panoramic views of the city skyline.</p>
+        </img>
+      </div>
+      <!-- third -->
+      <div class="box box-3 h-120 w-100  flex flex-col gap-y-3 ">
+        <div class="g-img-3">
+
+          <img src="/images/stairs.jpg" alt="" class="g-img-sub-1 h-85 w-auto rounded-[5px] border-2 md:h-70 md:w-85"
+            style="filter: saturate(2)">
+        </div>
+        <h1 class="capitalize px-2 font-poppins font-semibold">The Penthouse Duplex</h1>
+        <p class="capitalize px-2 font-poppins md:w-80"> The pinnacle of architectural luxury with double-height ceilings,
+          bespoke finishes, and premium skyline views.</p>
+       
+      </div>
+
+      <!-- fourth -->
+      <div class="box box-4 h-120 w-100  flex flex-col gap-y-3  ">
+        <div class="g-img-4">
+
+          <img src="/images/rooftop.jpg" alt="" class="g-img-sub-1 h-85 w-auto rounded-[5px] border-2 md:h-70 md:w-85"
+            style="filter: saturate(2) ;">
+        </div>
+        <h1 class="capitalize px-2 font-poppins font-semibold">Executive Sky Residence </h1>
+        <p class="capitalize px-2 font-poppins md:w-80"> Experience elevated living with spacious interiors, floor-to-ceiling
+          windows, premium amenities, and stunning sunset views.</p>
+        </img>
+      </div>
+    </div>
+  </div>
+
+
+ <div id="location" class="fivth h-230 w-full  bg-gray-300 flex flex-col sm:h-210 sm:mt-21">
+    <div class="five-1 h-130 w-full  flex flex-col justify-evenly items-center md:h-100">
+      <h1 class="font-bold text-3xl h-10 w-full ml-2 font-poppins sm:text-5xl md:text-5xl">The City at Your Doorstep</h1>
+      <p class="h-15 leading-6 w-full ml-3 font-poppins sm:mt-5 md:text-[20px] md:leading-10">Nestled in the city's most dynamic quarter, Aria Haus offers
+        immediate access to premier dining, boutique shopping, lush parks, and vibrant cultural landmarks.</p>
+      <div class="five-btn h-10 w-70 pl-4 pt-1 ml-2 ">
+        <button class=" cursor-pointer capitalize font-semibold font-poppins flex md:text-[32px] md:pt-5 ">Contact Now<span><img
+              src="right_arrow.svg" class="hover:translate-6 md:pt-3 " alt=""></span> </button>
+      </div>
+    </div>
+
+    <div class="w-full h-[500px] overflow-hidden rounded-2xl sm:mb-5 md:mt-3">
+      <img src="images/couple.webp" alt="Happy Couple" class="w-full h-full  rounded-2xl aspect-[3/2] sm:mb-5  md:aspect-[3/2]"
+        style="object-fit: contain;">
+    </div>
+  </div>  
+  <hr class="border-2"> 
+  <div id="Contact" class="sixth h-160 w-full  flex flex-col bg-lime-900 opacity-90">
+      <div class="six-1 flex  justify-evenly mt-4 ">
+         <div class="six-sub-1 h-55 w-80  flex flex-col justify-evenly gap-2 sm:ml-5">
+           <h1 class="font-poppins text-4xl capitalize font-bold">begin your journey to aria haus</h1>
+            <p> register for exclusive updates, floor plans,and private viewing opportunities</p>
+         </div>
+
+         <div class="six-sub-2 form h-35 w-130 flex justify-evenly flex-wrap" >
+            
+
+              <div class="f-1 name">
+                 <p>First Name <sup class="text-xs ">*</sup></p>
+                 <input type="text" class="border-2 rounded-sm">
+              </div>
+
+               <div class="f-1 last_name">
+                 <p>Last Name <sup class="text-xs">*</sup></p>
+                 <input type="text" class="border-2 rounded-sm">
+              </div>
+
+              <div class="f-1 email">
+                 <p>Email <sup class="text-xs">*</sup></p>
+                 <input type="email" class="border-2 rounded-sm">
+              </div>
+
+               <div class="f-1 phone">
+                 <p>Phone <sup class="text-xs">*</sup></p>
+                 <input type="number" maxlength="10" class="border-2 rounded-sm">
+              </div>
+              
+          </div>
+              
+         </div>
+          <div class="six-2 h-90  w-full  flex justify-evenly sm:flex sm:gap-6 ">
+         <div class="heading h-60 w-80  text-[150px] pt-10 font-bold font-poppins self-center ">aria</div>
+         <div class="faq h-60 w-90 flex justify-evenly items-center self-center">
+          <div class="ff-1 h-45 w-35 flex flex-col gap-4 text-[15px]">
+            <p class="font-bold">Contact</p>
+             <ul>
+              <li>123 456 7890</li>
+              <li >info@gmail.com</li>
+              <li class="pt-4">500 Terry Francine Street,San Francisco, CA 94158</li> 
+             </ul>
+          </div>
+          <div class="ff-2 h-45 w-35 flex flex-col gap-4 text-[15px]">
+            <p class="font-bold">Social</p>
+            <ul>
+              <li>Instagram</li>
+              <li>Facebook</li>
+              <li>LinkedIn</li>
+              <li>X</li>
+            </ul>
+          </div>
+         </div>
+         </div>
+  </div>
+  </body>
+
+</html>
